@@ -7,6 +7,7 @@ npm-debug.log*
 node_modules
 
 # Build generated files
+# some build commands - gulp build, gulp serve, gulp package-solution --ship, gulp bundle --ship --------->> you require CDN for remote thing and to get the hosted webpage without gulp serve you only need to --ship the change
 dist
 lib
 release
