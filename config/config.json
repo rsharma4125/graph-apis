@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-first-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myFirstApi/MyFirstApiWebPart.js",
+          "manifest": "./src/webparts/myFirstApi/MyFirstApiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyFirstApiWebPartStrings": "lib/webparts/myFirstApi/loc/{locale}.js"
+  }
+}
